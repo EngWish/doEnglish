@@ -9,7 +9,7 @@
 ## Overview
 ### Description
 
-"You Can English" is a game that tests your knowledge of English vocabulary. Prepare for the SHSAT/SAT/ACT/GRE exams using this app, or impress your friends and family with convoluted vocabulary in your daily lives, the possibilies are endless!
+"You Can English" is a game that tests your knowledge of English vocabulary. Prepare for the SHSAT/SAT/ACT/GRE exams using this app, or impress your friends and family with convoluted vocabulary in your daily lives, the possibilities are endless!
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
