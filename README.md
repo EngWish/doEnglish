@@ -72,8 +72,7 @@
 * Score/Result Screen -> Mode Screen
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="https://github.com/EngWish/you-can-english/blob/main/wireframe/owo_draft1.jpg" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
