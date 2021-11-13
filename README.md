@@ -79,10 +79,58 @@
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+
+#### Game question
+| Property      | Type     | Description |
+| ------------- | -------- | ------------|
+| word          | String   | currently displayed word  |
+| mcOptions     | String[] | list of 1 correct synonym and 3 false synonyms|
+| time          | Number   | amount of time the user has to answer the questions|
+| currentScore  | Number   | current score user has achieved    |
+| highScore     | Number   | highest score user has achieved    |
+
+#### Game result
+
+| Property      | Type     | Description |
+| ------------- | -------- | ------------|
+| words         | String[] | words that were given during the game|
+| answerKey     | String[] | correct answers for each question |
+| correctAnswers | Number[] | question numbers that the user answered correctly |
+| incorrectAnswers | Number[] | question numbers that the user answered incorrectly |
+| currentScore  | Number   | current score user has achieved    |
+| highScore     | Number   | highest score user has achieved    |
+
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+
+* Home/Start Screen 
+    * Nothing
+* Mode Screen
+    * Nothing
+* Game Screen
+    * (Read/GET) word - get random word + synonyms from API
+    ```swift
+             let query = PFQuery(className:"Word")
+             query.findObjectsInBackground { (word: [PFObject]?, error: Error?) in
+                if let error = error { 
+                   print(error.localizedDescription)
+                } else if let word = word {
+                   print("Successfully retrieved word.")
+               // TODO: Do something with word and its synonyms...
+                }
+             }
+    ```
+    * (Read/GET) incorrect mcOptions - get random word that is not in word synonym list
+    ```swift
+         let query = PFQuery(className:"IncorrectAnswers")
+         query.findObjectsInBackground { (incorrectAnswers: [PFObject]?, error: Error?) in
+            if let error = error { 
+               print(error.localizedDescription)
+            } else if let incorrectAnswers = incorrectAnswers {
+               print("Successfully retrieved \(incorrectAnswers.count) incorrect answers.")
+           // TODO: Do something with incorrect answers...
+            }
+         }
+    ```
+* Score/Result Screen
+    * Nothing
