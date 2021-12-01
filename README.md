@@ -2,9 +2,10 @@
 
 ## Table of Contents
 1. [Overview](#Overview)
-1. [Product Spec](#Product-Spec)
-1. [Wireframes](#Wireframes)
-2. [Schema](#Schema)
+2. [Product Spec](#Product-Spec)
+3. [Wireframes](#Wireframes)
+4. [Schema](#Schema)
+5. [Milestone 2](#Milestone-2)
 
 ## Overview
 ### Description
@@ -134,3 +135,19 @@
     ```
 * Score/Result Screen
     * Nothing
+
+## Milestone 2
+
+### User Stories
+
+#### REQUIRED
+- [x] User can view stylized loading screen with logo (when first starting up the app)
+- [x] User can view start screen and tap button to enter mode screen
+- [x] User can view different mode options and select a mode to play
+- [x] User can view game screen and choose to end the session
+- [x] User can view session status after ending game and choose to return to mode screen
+
+### App Walkthrough GIF
+<img src= width=250><br>
+
+GIF created with QuickTime Player and [ezgif.com](https://ezgif.com/video-to-gif)
