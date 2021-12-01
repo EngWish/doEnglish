@@ -148,6 +148,6 @@
 - [x] User can view session status after ending game and choose to return to mode screen
 
 ### App Walkthrough GIF
-<img src= width=250><br>
+<img src=https://github.com/EngWish/you-can-english/blob/main/gifs/engwish_demo_v1.gif width=250><br>
 
 GIF created with QuickTime Player and [ezgif.com](https://ezgif.com/video-to-gif)
