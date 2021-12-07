@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		9106F7112756F8D900D718B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9106F7102756F8D900D718B8 /* AppDelegate.swift */; };
 		9106F7132756F8D900D718B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9106F7122756F8D900D718B8 /* SceneDelegate.swift */; };
-		9106F7152756F8D900D718B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9106F7142756F8D900D718B8 /* ViewController.swift */; };
 		9106F7182756F8D900D718B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9106F7162756F8D900D718B8 /* Main.storyboard */; };
 		9106F71A2756F8DA00D718B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9106F7192756F8DA00D718B8 /* Assets.xcassets */; };
 		9106F71D2756F8DA00D718B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9106F71B2756F8DA00D718B8 /* LaunchScreen.storyboard */; };
 		9106F7282756F8DA00D718B8 /* you_can_englishTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9106F7272756F8DA00D718B8 /* you_can_englishTests.swift */; };
 		9106F7332756F8DA00D718B8 /* you_can_englishUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9106F7322756F8DA00D718B8 /* you_can_englishUITests.swift */; };
+		914A25BD275EDCE60066C08B /* SynViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914A25BC275EDCE60066C08B /* SynViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		9106F70D2756F8D900D718B8 /* you-can-english.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "you-can-english.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9106F7102756F8D900D718B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9106F7122756F8D900D718B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9106F7142756F8D900D718B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9106F7172756F8D900D718B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9106F7192756F8DA00D718B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9106F71C2756F8DA00D718B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		9106F72E2756F8DA00D718B8 /* you-can-englishUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "you-can-englishUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9106F7322756F8DA00D718B8 /* you_can_englishUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = you_can_englishUITests.swift; sourceTree = "<group>"; };
 		9106F7342756F8DA00D718B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		914A25BC275EDCE60066C08B /* SynViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +101,11 @@
 			children = (
 				9106F7102756F8D900D718B8 /* AppDelegate.swift */,
 				9106F7122756F8D900D718B8 /* SceneDelegate.swift */,
-				9106F7142756F8D900D718B8 /* ViewController.swift */,
 				9106F7162756F8D900D718B8 /* Main.storyboard */,
 				9106F7192756F8DA00D718B8 /* Assets.xcassets */,
 				9106F71B2756F8DA00D718B8 /* LaunchScreen.storyboard */,
 				9106F71E2756F8DA00D718B8 /* Info.plist */,
+				914A25BC275EDCE60066C08B /* SynViewController.swift */,
 			);
 			path = "you-can-english";
 			sourceTree = "<group>";
@@ -258,8 +258,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9106F7152756F8D900D718B8 /* ViewController.swift in Sources */,
 				9106F7112756F8D900D718B8 /* AppDelegate.swift in Sources */,
+				914A25BD275EDCE60066C08B /* SynViewController.swift in Sources */,
 				9106F7132756F8D900D718B8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
